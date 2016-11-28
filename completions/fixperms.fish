@@ -1,0 +1,5 @@
+complete -xc fixperms -s h -l help -d "Show usage help"
+complete -xc fixperms -s v -l version -d "Show version information"
+complete -xc fixperms -n "__fish_use_subcommand" -s f -l files -a MODE -d "Use <MODE> for all files in path"
+complete -xc fixperms -n "__fish_use_subcommand" -s d -l directories -d "Generate sha1 hashfile"
+complete -xc fixperms -n "__fish_use_subcommand" -a sha3 -d "Generate sha3 hashfile"
