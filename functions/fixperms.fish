@@ -8,7 +8,6 @@ function fixperms -d "fix permissions"
   set -l fixed_directories 0
   set -l fixed_files 0
 
-
   # echo $argv
 
   for idx in (seq (count $argv))
